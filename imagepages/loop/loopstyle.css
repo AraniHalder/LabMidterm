@@ -1,0 +1,149 @@
+html{
+	overflow-y: hidden;
+}
+
+body{
+	margin: 0px;
+	padding:0px;
+	background-color: black;
+	font-family: "roboto";
+	font-weight: lighter;
+	font-size: 30px;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+img{
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: contain;
+}
+
+#icon{
+	border: solid 1px white;
+  	width: 20px;
+  	height: 20px;
+	position: fixed;
+	top:600px;
+	left:20px;
+}
+#icon:hover{
+	border: solid 1px white;
+	background-color: white;
+  	width: 20px;
+  	height: 20px;
+	position: fixed;
+	top:600px;
+	left:20px;
+}
+
+	#menu{
+		font-size: 30px;
+		position: fixed;
+		transform: rotate(15deg);
+		left: 20px;
+		top:10px;
+		color: white;
+		transform: rotate(0deg);
+	    transition: all .5s ease; 
+	}
+	#menu:hover{
+		transform: rotate(130deg);
+		cursor: pointer;
+	}
+	
+	#image1{
+		border: solid 1px white;
+	  	width: 300px;
+	  	height: 300px;
+		position: absolute;
+		top:200px;
+		transform: rotate(45deg);
+	}
+	
+		#image2{
+			position: absolute;
+			left:340px;
+			top:110px;
+			width: 180px;
+			height: 280px;
+			transform: rotate(-45deg);
+		}
+		
+		#image3{
+			position: absolute;
+			left:545px;
+			top:235px;
+			width: 400px;
+			height: 380px;
+			transform: rotate(45deg);
+		}
+		
+		#image4{
+			position: absolute;
+			left:890px;
+			top:420px;
+			width: 130px;
+			height: 280px;
+			transform: rotate(-45deg);
+		}
+		
+		#image5{
+			position: absolute;
+			left:990px;
+			top:240px;
+			width: 300px;
+			height: 300px;
+			transform: rotate(45deg);
+		}
+		
+		#image6{
+			position: absolute;
+			left:1310px;
+			top:70px;
+			width: 260px;
+			height: 350px;
+			transform: rotate(-45deg);
+		}
+		
+		#image7{
+			position: absolute;
+			left:1610px;
+			top:300px;
+			width: 143px;
+			height: 200px;
+			transform: rotate(45deg);
+		}
+		
+			.thumbnail {
+			  max-width: 100%;
+			}
+			
+			.lightbox {
+			  display: none;
+			  position: fixed;
+			  z-index: 999;
+			  width: 100%;
+			  height: 100%;
+			  text-align: center;
+			  padding-top: 30px;
+			  top: 0px;
+			  left: 0;
+			  background: rgba(0,0,0,0.8);
+			}
+			
+			.lightbox img {
+			  max-width: 90%;
+			  max-height: 80%;
+			  margin-top: 2%;
+			}
+			
+			.lightbox:target {
+			  outline: none;
+			  display: block;
+			}
+	

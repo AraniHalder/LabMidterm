@@ -1,0 +1,207 @@
+body{
+	margin: 0px;
+	padding:0px;
+	font-family: "roboto";
+	font-weight: lighter;
+	font-size: 30px;
+/*	cursor: none;*/
+	margin-bottom: -20px;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+#icon{
+	border: solid 2px black;
+	transform: rotate(0deg);
+  	width: 20px;
+  	height: 20px;
+	position: fixed;
+	top:600px;
+	left:20px;
+	transition: all .5s ease; 
+}
+#icon:hover{
+	transform: rotate(45deg);
+}
+
+	#menu{
+		font-size: 30px;
+		position: fixed;
+		transform: rotate(15deg);
+		left: 20px;
+		top:10px;
+		transform: rotate(0deg);
+	    transition: all .5s ease; 
+	}
+	#menu:hover{
+		transform: rotate(130deg);
+		cursor: pointer;
+	}
+	
+		.text1{
+			font-size: 20px;
+			display: block;
+			position: absolute;
+			/*transform: rotate(0deg);*/
+		}
+		
+		.text2{
+			font-size: 20px;
+			display: block;
+			position: absolute;
+			transform: rotate(90deg);
+		}
+		
+		.text3{
+			font-size: 20px;
+			display: block;
+			position: absolute;
+			transform: rotate(45deg);
+		}
+		
+		.text4{
+			font-size: 20px;
+			display: block;
+			position: absolute;
+			transform: rotate(-45deg);
+		}
+	
+				#p1{
+					top:265px;
+					left:-10px;
+					font-weight: bold;
+				}
+				#p1:hover{
+					transform: rotate(225deg);
+				}
+	
+				#t1{
+					top:310px;
+					left:80px;
+					width: 278px;
+				}
+				#t1:hover{
+					transform: rotate(180deg);
+				}
+	
+				#t2{
+					top:420px;
+					left:270px;
+					width: 154px;
+				}
+				#t2:hover{
+					transform: rotate(-90deg);
+				}
+	
+				#t3{
+					top:420px;
+					left:350px;
+					width: 180px;
+				}
+				#t3:hover{
+					transform: rotate(135deg);
+				}
+	
+				#t4{
+					top:220px;
+					left:400px;
+					transform: rotate(-90deg);
+					width: 215px;
+				}
+				#t4:hover{
+					transform: rotate(90deg);
+				}
+	
+				#t5{
+					top:85px;
+					left:505px;
+					width: 242px;
+				}
+				#t5:hover{
+					transform: rotate(180deg);
+				}
+	
+				#t6{
+					top:200px;
+					left:630px;
+					width: 219px;
+				}
+				#t6:hover{
+					transform: rotate(225deg);
+				}
+	
+				#t7{
+					top:210px;
+					left:815px;
+					width: 187px;
+				}
+				#t7:hover{
+					transform: rotate(135deg);
+				}
+	
+				#t8{
+					top:265px;
+					left:910px;
+					width: 148px;
+				}
+				#t8:hover{
+					transform: rotate(-90deg);
+				}
+	
+				#t9{
+					top:360px;
+					left:985px;
+					width: 230px;
+				}
+				#t9:hover{
+					transform: rotate(225deg);
+				}
+	
+				#t10{
+					top:460px;
+					left:1200px;
+					width: 145px;
+				}
+				#t10:hover{
+					transform: rotate(180deg);
+				}
+	
+				#t11{
+					top:475px;
+					left:1260px;
+					width: 239px;
+				}
+				#t11:hover{
+					transform: rotate(-90deg);
+				}
+	
+				#t12{
+					top:510px;
+					left:1375px;
+					width: 230px;
+				}
+				#t12:hover{
+					transform: rotate(135deg);
+				}
+	
+				#t13{
+					top:410px;
+					left:1595px;
+					width: 155px;
+				}
+				#t13:hover{
+					transform: rotate(180deg);
+				}
+	
+				#t14{
+					top:310px;
+					left:1680px;
+					transform: rotate(-90deg);
+					width: 149px;
+				}
+				#t14:hover{
+					transform: rotate(90deg);
+				}
